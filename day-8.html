@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+    <div class="container">
+
+        <a href="" class="navbar-brand">LOGO</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+    <div class="collapse navbar-collapse" id="myMenu">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a href="" class="nav-link">home</a></li>
+        <li class="nav-item"><a href="" class="nav-link">about</a></li>
+        <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">service</a>
+
+            <ul class="dropdown-menu bg-dark">
+                <li class="nav-item"><a href="" class="nav-link">Service one</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Service two</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Service three</a></li>
+            </ul>
+
+        </li>
+        <li class="nav-item"><a href="" class="nav-link">Gallery</a></li>
+    </ul>
+
+    <ul class="navbar-nav">
+        <li class="nav-item"><a href="" class="nav-link" >Login</a></li>
+        <li class="nav-item"><a href="" class="nav-link" >Sign up</a></li>
+    </ul>
+
+        <!--<form class="form-inline">-->
+            <!--<input type="search" name="search" class="form-control" />-->
+            <!--<button type="submit" class="btn btn-outline-success ml-2"></button>-->
+        <!--</form>-->
+
+
+    </div>
+
+    </div>
+</nav>
+
+
+<hr>
+<hr>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+
+
+            <div id="myslider" class="carousel slide" data-ride="carousel" data-interval="1000">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#myslider" data-slide-to="0"></li>
+                    <li class="" data-target="#myslider" data-slide-to="1"></li>
+                    <li class="" data-target="#myslider" data-slide-to="2"></li>
+                    <li class="" data-target="#myslider" data-slide-to="3"></li>
+                </ol>
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"  src="images/2.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h1>Some content</h1>
+                            <p> web developer </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/3.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/4.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/4.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h1>Some content</h1>
+                            <p> web developer </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#myslider" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#myslider" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#MyModal">Click Me</button>
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="MyModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Some content header</h3>
+                <button class="close" data-dismiss="modal">
+                    &CircleTimes;
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="container">
+                    <div class="row">
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <hr>
+
+                            <form action="demo.html" method="post" >
+
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" name="first_name" id="firstName" class="form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input type="text" name="last_name" class="form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Email Address</label>
+                                    <input type="email" name="email_address" class="form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="Password" name="password" class="form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Phone number</label>
+                                    <input type="number" name="phonr_number" class="form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Date of Birth</label>
+                                    <input type="date" name="date_of_birth" class="form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label> <input type="radio" name="gender" value="male" > Male </label>
+                                    <label> <input type="radio" name="gender" value="female" > Female </label>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label>District Name</label>
+                                    <select name="district_name" class="form-control" >
+                                        <option > -----select district name---- </option>
+                                        <option value="dhaka"> Dhaka </option>
+                                        <option value="borisal"> Borisal </option>
+                                        <option value="vola"> Vola </option>
+                                        <option value="perojpur"> Perojpur </option>
+                                        <option value="madaripur"> Madaripur </option>
+
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label>Image</label>
+                                    <input type="file" name="image" multiple accept="image/*" />
+                                </div>
+
+
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" name="agree" class="form-check-input"> I agree all terms & condition
+                                    </label>
+                                </div>
+
+
+                                <!--<div class="form-group">-->
+                                <!--<input type="submit" name="btn" class="btn btn-success">-->
+                                <!--</div>-->
+
+
+                                <div class="form-group">
+                                    <input type="submit" name="btn" value="submit button"  class="btn btn-info btn-block">
+                                </div>
+
+                            </form>
+                        </div>
+
+
+
+
+                    </div>
+            <div class="modal-footer">
+                <h3>some money chai</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
